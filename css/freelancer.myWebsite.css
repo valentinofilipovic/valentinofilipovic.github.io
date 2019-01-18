@@ -247,8 +247,15 @@ a:hover {
     border-color: #128f76 /* dark turquoise*/
 }
 
+.img_me{
+    width: 100%;
+    height: auto;
+    padding-top: 10%;
+}
+
 .imgCenter {
     width: 100%;
+    height: auto;
     padding-bottom: 10%;
 }
 
