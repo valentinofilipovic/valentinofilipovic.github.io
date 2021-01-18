@@ -14,6 +14,13 @@ h6 {
     font-family: Montserrat
 }
 
+hr.seperator {
+    width: 50%; 
+    height: 2px; 
+    margin: 0 auto;
+    background: #2c3e50;
+}
+
 /* Layout and Space between headlines  */
 section {
     padding: 5rem 0
@@ -56,7 +63,7 @@ section h2 {
     font-family: Montserrat
 }
 #mainNav .navbar-brand {
-    color: #fff /* white */
+    color: #fff; /* white */
 }
 #mainNav .navbar-nav {
     margin-top: 1rem;
@@ -96,6 +103,9 @@ section h2 {
     #mainNav .navbar-nav {
         margin-top: 0
     }
+    #mainNav .navbar-nav li.nav-item a.nav-link {
+        border: 2px solid #fff
+    }
     #mainNav .navbar-nav > li.nav-item > a.nav-link.active {
         color: #fff;
         background: #18bc9c /* turquoise */
@@ -116,11 +126,11 @@ section h2 {
 }
 header.masthead {
     padding-top: calc(6rem + 72px);
-    padding-bottom: 6rem
+    padding-bottom: 6rem;
 }
 header.masthead h1 {
     font-size: 2.4rem;
-    line-height: 2.4rem
+    line-height: 2.4rem;
 }
 header.masthead h2 {
     font-size: 1.3rem;
@@ -196,7 +206,7 @@ header.masthead h2 {
         min-height: 100vh;
         padding: 5rem;
         margin: 3rem calc(3rem - 8px)
-            }
+                }
     .portfolio-modal .portfolio-modal-dialog h2 {
         font-size: 3rem
     }
@@ -247,7 +257,7 @@ a:hover {
     border-color: #128f76 /* dark turquoise*/
 }
 
-.img_me{
+.img_me {
     width: 100%;
     height: auto;
     padding-top: 10%;
